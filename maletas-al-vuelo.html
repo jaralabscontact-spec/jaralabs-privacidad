@@ -1,269 +1,61 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Política de Privacidad — Maletas al Vuelo</title>
-  <meta name="description" content="Política de privacidad de la aplicación Maletas al Vuelo (JaraLabs).">
-  <style>
-    :root {
-      --color-primary: #2A6FB0;
-      --color-accent: #2EBFA5;
-      --color-text: #2C3E50;
-      --color-text-secondary: #5A6C7D;
-      --color-bg: #F8FAFC;
-      --color-card: #FFFFFF;
-      --color-border: #E2E8F0;
-    }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-      line-height: 1.6;
-      color: var(--color-text);
-      background: var(--color-bg);
-      margin: 0;
-      padding: 24px 16px;
-    }
-    .container {
-      max-width: 760px;
-      margin: 0 auto;
-      background: var(--color-card);
-      padding: 40px 32px;
-      border-radius: 12px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-    }
-    h1 {
-      color: var(--color-primary);
-      font-size: 28px;
-      margin: 0 0 8px 0;
-    }
-    h2 {
-      color: var(--color-primary);
-      font-size: 20px;
-      margin-top: 32px;
-      margin-bottom: 12px;
-      border-bottom: 2px solid var(--color-border);
-      padding-bottom: 6px;
-    }
-    h3 {
-      color: var(--color-text);
-      font-size: 16px;
-      margin-top: 20px;
-      margin-bottom: 8px;
-    }
-    p, li { font-size: 15px; }
-    ul { padding-left: 22px; }
-    .meta {
-      color: var(--color-text-secondary);
-      font-size: 13px;
-      margin-bottom: 24px;
-    }
-    .nota {
-      background: #F0F9FF;
-      border-left: 4px solid var(--color-accent);
-      padding: 12px 16px;
-      margin: 20px 0;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-    a {
-      color: var(--color-primary);
-      text-decoration: none;
-    }
-    a:hover { text-decoration: underline; }
-    .contacto {
-      background: var(--color-bg);
-      padding: 16px;
-      border-radius: 8px;
-      margin-top: 16px;
-    }
-    .footer {
-      text-align: center;
-      margin-top: 40px;
-      padding-top: 24px;
-      border-top: 1px solid var(--color-border);
-      font-size: 13px;
-      color: var(--color-text-secondary);
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-
-    <h1>Política de Privacidad</h1>
-    <p class="meta">
-      <strong>Aplicación:</strong> Maletas al Vuelo<br>
-      <strong>Desarrollador:</strong> JaraLabs<br>
-      <strong>Identificador de paquete:</strong> com.jaralabs.maletasalvuelo<br>
-      <strong>Última actualización:</strong> 13 de mayo de 2026
-    </p>
-
-    <div class="nota">
-      Esta política explica qué datos recoge la aplicación <strong>Maletas al Vuelo</strong>,
-      con qué fines, y los derechos que tiene el usuario sobre ellos. Está redactada
-      conforme al Reglamento General de Protección de Datos de la Unión Europea
-      (RGPD) y a las directrices de Google Play.
-    </div>
-
-    <h2>1. Responsable del tratamiento</h2>
-    <p>
-      El responsable del tratamiento de los datos recopilados a través de esta
-      aplicación es <strong>JaraLabs</strong>, identificado a efectos de contacto
-      en la sección de contacto al final de este documento.
-    </p>
-
-    <h2>2. Datos recopilados directamente por la aplicación</h2>
-    <p>
-      Maletas al Vuelo es un juego de puzle que <strong>no requiere registro</strong>
-      ni recopila datos personales por sí misma. La aplicación guarda únicamente
-      <strong>en el dispositivo del usuario</strong> los siguientes datos de juego:
-    </p>
-    <ul>
-      <li>Progreso de los niveles (cuáles han sido completados y con qué puntuación)</li>
-      <li>Cantidad de monedas/gemas obtenidas dentro del juego</li>
-      <li>Preferencias de configuración (volumen de música y efectos)</li>
-      <li>Contadores de uso interno (número de sesiones de juego, taps, etc.)</li>
-    </ul>
-    <p>
-      Estos datos <strong>no salen del dispositivo</strong>, no se envían a ningún
-      servidor de JaraLabs, y se almacenan mediante la API de
-      <a href="https://capacitorjs.com/docs/apis/preferences" target="_blank" rel="noopener">
-      Capacitor Preferences</a>, que utiliza el almacenamiento seguro nativo de Android.
-      Si el usuario desinstala la aplicación, estos datos se borran del dispositivo.
-    </p>
-
-    <h2>3. Datos recopilados por terceros</h2>
-
-    <h3>3.1 Google AdMob (publicidad)</h3>
-    <p>
-      Maletas al Vuelo muestra anuncios proporcionados por Google AdMob (Google Ireland
-      Limited / Google LLC). Para servir anuncios relevantes, AdMob puede recopilar
-      automáticamente la siguiente información del dispositivo:
-    </p>
-    <ul>
-      <li>Identificador de publicidad de Android (Advertising ID)</li>
-      <li>Dirección IP aproximada y país de origen</li>
-      <li>Modelo de dispositivo, sistema operativo y su versión</li>
-      <li>Interacciones del usuario con los anuncios (vistas, clics)</li>
-      <li>Información agregada de uso para personalización publicitaria (si el
-          usuario lo ha autorizado en los ajustes de su dispositivo)</li>
-    </ul>
-    <p>
-      Estos datos se rigen por la política de privacidad de Google. Para más
-      información sobre cómo Google utiliza los datos, consulta:
-      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-      https://policies.google.com/privacy</a> y
-      <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">
-      https://policies.google.com/technologies/ads</a>.
-    </p>
-    <p>
-      El usuario puede limitar o desactivar la publicidad personalizada desde
-      los ajustes de su dispositivo Android: <em>Ajustes → Google → Anuncios →
-      Restablecer ID de publicidad / Inhabilitar personalización de anuncios</em>.
-    </p>
-
-    <h3>3.2 Google Play Services</h3>
-    <p>
-      Si el dispositivo tiene Google Play Services instalado, este componente
-      del sistema operativo puede recopilar datos de uso de la aplicación
-      conforme a la política de privacidad de Google. JaraLabs no controla
-      directamente este tratamiento.
-    </p>
-
-    <h2>4. Finalidades del tratamiento</h2>
-    <ul>
-      <li>Permitir el funcionamiento del juego (guardar progreso, preferencias)</li>
-      <li>Mostrar anuncios para monetizar la aplicación gratuita</li>
-      <li>Mejorar la experiencia de usuario mediante el análisis agregado del uso</li>
-    </ul>
-
-    <h2>5. Base jurídica</h2>
-    <p>
-      El tratamiento de datos descrito en esta política se basa en:
-    </p>
-    <ul>
-      <li><strong>Consentimiento del usuario:</strong> al instalar y utilizar la
-          aplicación, así como al permitir el seguimiento publicitario en los
-          ajustes del dispositivo</li>
-      <li><strong>Interés legítimo:</strong> en el caso del almacenamiento local
-          de progreso de juego y preferencias, necesario para el funcionamiento
-          básico de la aplicación</li>
-    </ul>
-
-    <h2>6. Conservación de los datos</h2>
-    <p>
-      Los datos almacenados localmente en el dispositivo se conservan mientras
-      el usuario tenga la aplicación instalada. Los datos recogidos por Google
-      AdMob se conservan según la política de retención de Google, accesible
-      en su política de privacidad.
-    </p>
-
-    <h2>7. Menores de edad</h2>
-    <p>
-      Maletas al Vuelo está clasificada como apta para todos los públicos.
-      No solicita ningún dato personal ni de contacto en ningún momento.
-      Si un usuario menor de edad utiliza la aplicación, los datos descritos
-      en la sección 3.1 podrían ser recogidos por Google AdMob para mostrar
-      anuncios; en ese caso, recomendamos a padres o tutores activar el
-      <strong>"modo familiar"</strong> en los ajustes del dispositivo Android
-      para limitar el seguimiento publicitario.
-    </p>
-
-    <h2>8. Derechos del usuario</h2>
-    <p>
-      Conforme al RGPD, el usuario tiene los siguientes derechos sobre sus datos:
-    </p>
-    <ul>
-      <li><strong>Acceso:</strong> conocer qué datos tenemos sobre él</li>
-      <li><strong>Rectificación:</strong> solicitar la corrección de datos inexactos</li>
-      <li><strong>Supresión:</strong> solicitar el borrado de sus datos (al
-          desinstalar la app, los datos locales se borran automáticamente)</li>
-      <li><strong>Oposición y limitación:</strong> oponerse o limitar
-          determinados tratamientos</li>
-      <li><strong>Portabilidad:</strong> recibir sus datos en formato estructurado</li>
-      <li><strong>Reclamación:</strong> presentar una reclamación ante la
-          Agencia Española de Protección de Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>)
-          si considera que sus derechos han sido vulnerados</li>
-    </ul>
-    <p>
-      Para ejercer cualquiera de estos derechos sobre los datos que controla
-      JaraLabs, puede contactar a través del correo electrónico indicado en
-      la sección de contacto.
-    </p>
-
-    <h2>9. Seguridad de los datos</h2>
-    <p>
-      Los datos almacenados localmente en el dispositivo del usuario están
-      protegidos por los mecanismos de seguridad del sistema operativo Android.
-      JaraLabs no almacena datos del usuario en servidores propios.
-    </p>
-
-    <h2>10. Cambios en esta política</h2>
-    <p>
-      JaraLabs se reserva el derecho de actualizar esta política de privacidad
-      para reflejar cambios en la aplicación, en la normativa aplicable o en
-      las prácticas de los terceros utilizados. La fecha de la última actualización
-      figura al inicio de este documento. Recomendamos revisar periódicamente
-      esta página.
-    </p>
-
-    <h2>11. Contacto</h2>
-    <div class="contacto">
-      <p style="margin: 0;">
-        Para cualquier consulta o ejercicio de derechos relacionados con la
-        privacidad y los datos personales, puede contactar con:
-      </p>
-      <p style="margin: 12px 0 0 0;">
-        <strong>JaraLabs</strong><br>
-        Correo electrónico: <a href="mailto:jaralabs.contact@gmail.com">jaralabs.contact@gmail.com</a>
-      </p>
-    </div>
-
-    <div class="footer">
-      © 2026 JaraLabs — Maletas al Vuelo. Todos los derechos reservados.<br>
-      Política de privacidad versión 1.0 — 13 de mayo de 2026
-    </div>
-
-  </div>
-</body>
-</html>
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Política de privacidad de Maletas al Vuelo de JaraLabs. Datos, publicidad, opciones y contacto."><title>Maletas al Vuelo · Política de privacidad</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#F3F7FA;color:#142943;font:17px/1.65 system-ui,-apple-system,Segoe UI,Arial,sans-serif;touch-action:pan-y}main{max-width:820px;margin:32px auto;padding:32px;background:white;border-radius:16px;box-shadow:0 8px 36px #0a173010}nav{display:flex;gap:16px;flex-wrap:wrap;padding-bottom:16px;border-bottom:1px solid #dce6ee}a{color:#176582;overflow-wrap:anywhere}h1{font-size:32px;line-height:1.2;margin:28px 0 16px}h2{font-size:21px;margin-top:30px}.meta{font-size:14px;color:#52667c}code{font-size:13px;overflow-wrap:anywhere}footer{margin-top:32px;padding-top:20px;border-top:1px solid #dce6ee;font-size:14px;color:#52667c}@media(max-width:600px){main{margin:0;border-radius:0;padding:24px 20px}h1{font-size:29px}}</style></head><body><main>
+<nav aria-label="Idioma / Language"><a href="?lang=es" lang="es">Español</a><a href="?lang=en" lang="en">English</a><a href="mailto:jaralabs.contact@gmail.com">Contacto / Contact</a></nav>
+<article data-language="es" lang="es">
+<h1>Política de privacidad<br>Maletas al Vuelo</h1>
+<p class="meta">JaraLabs · Versión 2.0 · Actualizada el 23 de noviembre de 2026<br>Aplicación Android: <code>com.jaralabs.maletasalvuelo</code></p>
+<h2>1. Responsable y contacto</h2>
+<p>JaraLabs es el desarrollador de Maletas al Vuelo y el punto de contacto para el tratamiento de datos descrito aquí. Puedes escribir a <a href="mailto:jaralabs.contact@gmail.com">jaralabs.contact@gmail.com</a> para consultas de privacidad y solicitudes sobre información que hayas facilitado directamente a JaraLabs.</p>
+<h2>2. Partida y preferencias en tu dispositivo</h2>
+<p>El juego guarda localmente el nivel alcanzado, los récords, las gemas, los ajustes de sonido, vibración e idioma y contadores básicos de las sesiones. Sirven para continuar la partida y aplicar tus opciones. El código propio del juego no envía ese guardado a un servidor de JaraLabs y no requiere crear una cuenta de jugador.</p>
+<p>No solicita acceso a contactos, cámara, micrófono ni ubicación precisa. La respuesta háptica puede desactivarse en Ajustes. El juego puede utilizarse sin conexión; las funciones publicitarias y los enlaces externos requieren Internet.</p>
+<h2>3. Publicidad y servicios de Google</h2>
+<p>La aplicación integra Google AdMob y User Messaging Platform (UMP). Antes de solicitar anuncios, consulta las opciones aplicables y solo habilita las solicitudes cuando UMP indica que pueden realizarse. Las versiones de prueba utilizan unidades de anuncios de prueba.</p>
+<p>El SDK publicitario de Google puede tratar y compartir IP y ubicación general derivada de ella, identificadores del dispositivo, interacciones y diagnósticos para publicidad, analíticas y prevención del fraude. No todos los identificadores se usan para los mismos fines. Consulta la <a href="https://policies.google.com/privacy?hl=es" target="_blank" rel="noopener noreferrer">Política de Privacidad de Google</a> y la <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">información sobre datos del SDK</a>.</p>
+<p>Las comunicaciones de los servicios de Google utilizan conexiones cifradas. Google puede tratar datos en otros países conforme a las garantías y condiciones descritas en sus políticas. Esta aplicación no incorpora actualmente otras redes de mediación publicitaria.</p>
+<h2>4. Tus opciones y consentimiento</h2>
+<p>El guardado local se utiliza para prestar las funciones del juego. Cuando se requiera consentimiento para funciones publicitarias, se solicitan las opciones mediante el sistema de Google antes de habilitar solicitudes de anuncios. No se considera que instalar o abrir el juego equivalga a aceptar publicidad personalizada.</p>
+<p>En Ajustes → Privacidad de anuncios puedes revisar las opciones cuando estén disponibles o sean necesarias. La disponibilidad y el tipo de anuncio dependen de esas opciones y de la configuración de Google; cambiar preferencias no implica necesariamente que desaparezcan todos los anuncios. El juego sigue funcionando si los anuncios no se pueden cargar. También puedes gestionar el identificador publicitario desde Android.</p>
+<h2>5. Público destinatario</h2>
+<p>Maletas al Vuelo está dirigido a adolescentes y adultos a partir de 13 años, y no está diseñado para menores de 13. La edad necesaria para prestar consentimiento válido puede variar según el país. Si no puedes prestar ese consentimiento por tu edad, solicita la intervención de tu representante legal. Si crees que un menor ha facilitado información personal a JaraLabs, contacta con nosotros para revisar la solicitud correspondiente.</p>
+<h2>6. Conservación y eliminación</h2>
+<p>El guardado permanece en tu dispositivo para continuar jugando. Ajustes → Borrar progreso elimina niveles, récords y gemas, y conserva las preferencias. Para eliminar los datos locales completos puedes usar los ajustes de almacenamiento de Android. Las copias de seguridad y restauraciones del sistema dependen de tu configuración de Android.</p>
+<p>JaraLabs no conserva el guardado en un servidor propio. Si escribes a soporte, tu correo y el mensaje se utilizan para atender la consulta y se conservan durante el tiempo necesario para gestionarla y cumplir las obligaciones aplicables. La conservación de los datos que trata Google se rige por sus políticas. Borrar el progreso no elimina por sí solo los registros de Google.</p>
+<h2>7. Derechos y solicitudes</h2>
+<p>Cuando resulte aplicable, puedes solicitar acceso, rectificación, supresión, oposición, limitación o portabilidad de los datos que controle JaraLabs, y retirar los consentimientos correspondientes, escribiendo al correo de contacto. La retirada no afecta a la licitud del tratamiento anterior. La solicitud se atenderá conforme a los plazos y condiciones de la normativa aplicable.</p>
+<p>Para información tratada por Google, consulta también sus controles de privacidad y vías de contacto. Puedes presentar una reclamación ante tu autoridad de protección de datos; en España, la <a href="https://www.aepd.es/derechos-y-deberes/conoce-tus-derechos" target="_blank" rel="noopener noreferrer">Agencia Española de Protección de Datos</a>. El juego no tiene cuentas de jugador que sea necesario cerrar.</p>
+<h2>8. Seguridad y esta página web</h2>
+<p>Los datos locales utilizan los mecanismos de aislamiento de aplicaciones de Android. Esta página no incluye publicidad, analítica propia ni formularios. La versión pública está alojada en GitHub Pages; el proveedor de alojamiento puede tratar datos técnicos de las solicitudes conforme a su <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">declaración de privacidad</a>.</p>
+<h2>9. Cambios</h2>
+<p>Si cambian las funciones o las prácticas de datos, se actualizará la política y su fecha. La aplicación incluye una copia que puede leerse sin conexión; la versión pública actualizada está en <a href="https://jaralabscontact-spec.github.io/jaralabs-privacidad/maletas-al-vuelo.html" target="_blank" rel="noopener noreferrer">esta dirección web</a>. Los enlaces externos necesitan Internet.</p>
+</article><article data-language="en" lang="en" hidden>
+<h1>Privacy policy<br>Maletas al Vuelo</h1>
+<p class="meta">JaraLabs · Version 2.0 · Updated November 23, 2026<br>Android application: <code>com.jaralabs.maletasalvuelo</code></p>
+<h2>1. Developer and contact</h2>
+<p>JaraLabs develops Maletas al Vuelo and is the contact point for the data practices described here. Email <a href="mailto:jaralabs.contact@gmail.com">jaralabs.contact@gmail.com</a> for privacy questions or requests about information you have provided directly to JaraLabs.</p>
+<h2>2. Progress and preferences on your device</h2>
+<p>The game stores levels, records, gems, sound, vibration and language preferences, and basic session counters locally to resume play and apply your choices. The game's own code does not upload this save to a JaraLabs server. No player account is required.</p>
+<p>It does not request contacts, camera, microphone or precise location. Haptics can be switched off in Settings. Gameplay works offline; advertising features and external links require Internet.</p>
+<h2>3. Advertising and Google services</h2>
+<p>The app integrates Google AdMob and User Messaging Platform (UMP). Before requesting ads, it checks the applicable choices and enables requests only when UMP indicates they are allowed. Test versions use test ad units.</p>
+<p>Google's ad SDK may process and share IP and derived general location, device identifiers, interactions and diagnostics for advertising, analytics and fraud prevention. Different identifiers have different permitted uses. See <a href="https://policies.google.com/privacy?hl=en" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> and its <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">SDK data disclosure</a>.</p>
+<p>Google services use encrypted connections and may process data in other countries under the safeguards described in their policies. The app currently includes no other ad mediation networks.</p>
+<h2>4. Choices and consent</h2>
+<p>Local saves support the game's functions. Where consent is required for advertising features, Google's system requests choices before enabling ad requests. Installing or opening the game does not mean accepting personalized advertising.</p>
+<p>Settings → Ad privacy reopens choices when available or required. Ad availability and type depend on your choices and Google's configuration; changing preferences does not necessarily remove every ad. Gameplay continues if ads cannot load. You can also manage your advertising ID in Android.</p>
+<h2>5. Intended audience</h2>
+<p>Maletas al Vuelo is intended for teenagers and adults aged 13 and over, and is not designed for children under 13. The age for valid consent varies by country. If you cannot provide valid consent because of your age, involve your legal representative. Contact us if you believe a child has provided personal information to JaraLabs.</p>
+<h2>6. Retention and deletion</h2>
+<p>Your save stays on your device. Settings → Reset progress deletes levels, records and gems while preserving preferences. Android storage settings let you remove all local app data. System backups and restoration depend on your Android configuration.</p>
+<p>JaraLabs has no server copy of the save. Support emails and messages are used to answer the query and retained as necessary to handle it and meet applicable obligations. Google's retention is governed by its own policies. Resetting progress does not itself erase Google's records.</p>
+<h2>7. Rights and requests</h2>
+<p>Where applicable, contact JaraLabs to request access, correction, erasure, objection, restriction or portability of data it controls, or to withdraw relevant consent. Withdrawal does not affect earlier lawful processing. Requests are handled within applicable legal conditions and time limits.</p>
+<p>For data processed by Google, also use its privacy controls and contact channels. You may complain to your data protection authority; in Spain, the <a href="https://www.aepd.es/derechos-y-deberes/conoce-tus-derechos" target="_blank" rel="noopener noreferrer">Spanish Data Protection Agency</a>. The game has no player accounts to close.</p>
+<h2>8. Security and this web page</h2>
+<p>Local data relies on Android's app isolation mechanisms. This page contains no advertising, own analytics or forms. The public version is hosted on GitHub Pages, whose provider may process technical request data under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">privacy statement</a>.</p>
+<h2>9. Changes</h2>
+<p>Changes in features or data practices will be reflected in the policy and date. The app includes an offline copy; the updated public version is available at <a href="https://jaralabscontact-spec.github.io/jaralabs-privacidad/maletas-al-vuelo.html" target="_blank" rel="noopener noreferrer">this web address</a>. External links require Internet.</p>
+</article>
+<footer>JaraLabs · Maletas al Vuelo · 23/11/2026</footer></main>
+<script>const language=new URLSearchParams(location.search).get('lang')==='en'?'en':'es';document.documentElement.lang=language;document.title=language==='en'?"Maletas al Vuelo \u00b7 Privacy policy":"Maletas al Vuelo \u00b7 Pol\u00edtica de privacidad";document.querySelectorAll('[data-language]').forEach(a=>a.hidden=a.dataset.language!==language);</script></body></html>
